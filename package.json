@@ -1,0 +1,38 @@
+{
+  "name": "dynamic-data-intelligence-talk",
+  "version": "1.0.0",
+  "description": "Dynamic Data Intelligence for proactive governance and risk management in AI systems",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node governance-tools/dashboard/server.js",
+    "build": "webpack --mode production",
+    "lint": "eslint governance-tools/",
+    "test": "jest"
+  },
+  "dependencies": {
+    "d3": "^7.8.5",
+    "vis-network": "^9.1.6",
+    "vis-data": "^7.1.6",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "data-governance",
+    "data-intelligence",
+    "risk-management",
+    "ai-systems",
+    "data-quality",
+    "data-lineage"
+  ],
+  "author": "",
+  "license": "MIT"
+}
